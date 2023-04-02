@@ -1,0 +1,52 @@
+.filter-panel {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 10px;
+	padding: 40px 0;
+	background: url('../../images/backgroundBooks.jpg') no-repeat;
+
+	label {
+		color: #fff;
+		text-align: center;
+	}
+
+	select {
+		margin-left: 10px;
+		border-radius: 20px;
+		text-align: center;
+	}
+
+
+	&__title {
+		font-size: 30px;
+		line-height: 0;
+		color: white;
+	}
+
+	&__search-input {
+		padding: 10px;
+		font-size: 20px;
+		width: 30%;
+
+		&:focus {
+			outline: none;
+		}
+	}
+
+	&__selects {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		gap: 20px;
+	}
+
+	&__search-button {
+		width: 160px;
+		height: 40px;
+		border-radius: 20px;
+		border: none;
+		background-color: #fff;
+		color: #000;
+	}
+}

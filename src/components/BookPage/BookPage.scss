@@ -1,0 +1,51 @@
+.book {
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+
+	&__image {
+		background-color: rgba(235, 229, 229, 0.5);
+		width: 400px;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		padding: 40px 0;
+		margin: 0 40px 40px 0;
+	}
+
+	&__image img {
+		object-fit: fill;
+		box-shadow: 15px 15px 15px rgb(163, 162, 162);
+	}
+
+	&__info {
+		width: 500px;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		gap: 30px;
+	}
+
+	&__category {
+		font-size: 15px;
+	}
+
+	&__title {
+		font-size: 25px;
+		font-weight: bold;
+	}
+
+	&__author {
+		font-size: 16px;
+		color: rgb(136, 134, 134);
+		font-weight: normal;
+		text-decoration: underline;
+	}
+
+	&__description {
+		border: 2px solid rgba(136, 134, 134, .1);
+		min-height: 200px;
+		max-width: 500px;
+	}
+}
